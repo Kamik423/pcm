@@ -162,7 +162,12 @@ def pcm(
 
     # Draw labels
     axes.text(
-        0, 0, center_label, horizontalalignment="center", verticalalignment="center"
+        0,
+        0,
+        center_label,
+        horizontalalignment="center",
+        verticalalignment="center",
+        fontsize=8,
     )
     axes.text(
         0,
