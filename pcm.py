@@ -452,6 +452,7 @@ def pcm(
     axes.spines["right"].set_visible(False)
     axes.spines["left"].set_visible(False)
     axes.spines["bottom"].set_visible(False)
+    axes.patch.set_alpha(0.0)
 
 
 def reddit_from_json() -> praw.Reddit:
